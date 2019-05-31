@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Assignment1.4</title>
+        <h1>My First sub-window</h1>
+    </head>
+    <script>
+        function GO()
+        {
+            var data = document.getElementById("URLinput").value;
+            document.getElementById("frame1").src = data;
+        }
+    </script>
+    <body>
+            <input type = "text" id = "URLinput">
+            <input type ="button" onclick = "GO()" value = "GO">
+        <iframe src="" style = "height:80%;width:100%" name= "frame" id = "frame1"></iframe><br>
+    </body>
+</html>
